@@ -1,5 +1,76 @@
 {
     "unit": {
+        "1": {
+            "components": {
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
+                "ability": {
+                    "1_1": [
+                        201347498, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.8999999999068677, 
+                        1.8999999999068677, 
+                        1.6000000000931323
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -54, 
+                                355188736
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                57, 
+                                2672328704
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            3, 
+                            608135892
+                        ]
+                    }
+                }
+            }, 
+            "entity_id": 134270124, 
+            "name": "green_snake_tail", 
+            "type": 1, 
+            "unit_id": 1
+        }, 
         "10": {
             "components": {
                 "__attr": {
@@ -38,7 +109,7 @@
                         "items": [
                             [
                                 -54, 
-                                1842151424
+                                186269696
                             ], 
                             [
                                 0, 
@@ -46,7 +117,7 @@
                             ], 
                             [
                                 55, 
-                                2945056768
+                                4043948032
                             ]
                         ]
                     }, 

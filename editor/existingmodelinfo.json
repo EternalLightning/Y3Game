@@ -1442,6 +1442,14 @@
  {
   "__tuple__": true, 
   "items": [
+   1, 
+   "green_snake_tail", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
    9999, 
    "\u521d\u59cb\u955c\u5934", 
    32768

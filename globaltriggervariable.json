@@ -2,16 +2,44 @@
     "local_variable": {
         "253038605": {
             "variable_dict": {
+                "ANGLE": {
+                    "newAngle": 0.0
+                }, 
+                "BOOLEAN": {
+                    "eatStar": false
+                }, 
                 "INTEGER": {
                     "i": 0
+                }, 
+                "NEW_TIMER": {}, 
+                "POINT": {
+                    "newHead": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "UNIT_ENTITY": {
+                    "tmpUnit": 0
                 }
             }, 
             "variable_length_dict": {
-                "i": 0
+                "eatStar": 0, 
+                "i": 0, 
+                "newAngle": 0, 
+                "newHead": 0, 
+                "tmpUnit": 0
             }
         }, 
         "738635780": {
             "variable_dict": {
+                "BOOLEAN": {
+                    "isStar": false, 
+                    "isWall": false
+                }, 
                 "INTEGER": {
                     "angle": 0, 
                     "directionX": 0, 
@@ -22,7 +50,9 @@
             "variable_length_dict": {
                 "angle": 0, 
                 "directionX": 0, 
-                "directionY": 0
+                "directionY": 0, 
+                "isStar": 0, 
+                "isWall": 0
             }
         }, 
         "889630725": {
@@ -58,6 +88,9 @@
     }, 
     "variable_comments": {}, 
     "variable_dict": {
+        "ANGLE": {
+            "queueAngle": 0.0
+        }, 
         "BOOLEAN": {
             "gameStatus": false
         }, 
@@ -65,9 +98,8 @@
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
             "UNITLEN": 200, 
-            "head": 1, 
-            "lastOpt": 0, 
-            "queueAngle": 0
+            "head": 2, 
+            "lastOpt": 0
         }, 
         "NEW_TIMER": {}, 
         "PLAYER": {
@@ -117,6 +149,7 @@
         }, 
         "UNIT_GROUP": {
             "Stars": [], 
+            "snakeBodyUnit": [], 
             "wall": []
         }, 
         "UNIT_NAME": {}
@@ -240,6 +273,13 @@
                 "snakeTailUnit", 
                 "snakeTailUnit"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "snakeBodyUnit", 
+                "snakeBodyUnit"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -254,6 +294,7 @@
         "lastOpt": 0, 
         "queue": 10, 
         "queueAngle": 10, 
+        "snakeBodyUnit": 0, 
         "snakeHeadPlayer": 0, 
         "snakeHeadUnit": 0, 
         "snakeTailUnit": 0, 
