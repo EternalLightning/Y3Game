@@ -1,5 +1,15 @@
 {
     "local_variable": {
+        "253038605": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0
+            }
+        }, 
         "738635780": {
             "variable_dict": {
                 "INTEGER": {
@@ -51,25 +61,19 @@
         "BOOLEAN": {
             "gameStatus": false
         }, 
+        "FLOAT": {}, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
             "UNITLEN": 200, 
             "head": 1, 
-            "tail": 1
+            "lastOpt": 0, 
+            "queueAngle": 0
         }, 
         "NEW_TIMER": {}, 
         "PLAYER": {
             "snakeHeadPlayer": 0
         }, 
         "POINT": {
-            "Stars": {
-                "__tuple__": true, 
-                "items": [
-                    0, 
-                    0, 
-                    0
-                ]
-            }, 
             "coordinate": {
                 "__tuple__": true, 
                 "items": [
@@ -108,9 +112,11 @@
             "wallList": null
         }, 
         "UNIT_ENTITY": {
-            "snakeHeadUnit": 0
+            "snakeHeadUnit": 0, 
+            "snakeTailUnit": 0
         }, 
         "UNIT_GROUP": {
+            "Stars": [], 
             "wall": []
         }, 
         "UNIT_NAME": {}
@@ -156,13 +162,6 @@
             "items": [
                 "wallList", 
                 "wallList"
-            ]
-        }, 
-        {
-            "__tuple__": true, 
-            "items": [
-                "tail", 
-                "tail"
             ]
         }, 
         {
@@ -220,22 +219,45 @@
                 "spawnPoint", 
                 "spawnPoint"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "lastOpt", 
+                "lastOpt"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "queueAngle", 
+                "queueAngle"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "snakeTailUnit", 
+                "snakeTailUnit"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GLOBAL_BAG_MAX_NUM": 0, 
-        "Stars": 10, 
+        "Stars": 0, 
         "UI_Manager": 0, 
         "UNITLEN": 0, 
         "coordinate": 0, 
         "coordinateTMP": 0, 
         "gameStatus": 0, 
         "head": 0, 
+        "lastOpt": 0, 
         "queue": 10, 
+        "queueAngle": 10, 
         "snakeHeadPlayer": 0, 
         "snakeHeadUnit": 0, 
+        "snakeTailUnit": 0, 
         "spawnPoint": 0, 
-        "tail": 0, 
         "wall": 0, 
         "wallList": 0
     }
