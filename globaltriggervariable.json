@@ -1,0 +1,242 @@
+{
+    "local_variable": {
+        "738635780": {
+            "variable_dict": {
+                "INTEGER": {
+                    "angle": 0, 
+                    "directionX": 0, 
+                    "directionY": 0
+                }, 
+                "NEW_TIMER": {}
+            }, 
+            "variable_length_dict": {
+                "angle": 0, 
+                "directionX": 0, 
+                "directionY": 0
+            }
+        }, 
+        "889630725": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "flag": true
+                }
+            }, 
+            "variable_length_dict": {
+                "flag": 0
+            }
+        }, 
+        "1288146947": {
+            "variable_dict": {
+                "FLOAT": {
+                    "x": 0.0, 
+                    "y": 0.0
+                }, 
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "unit": 0, 
+                "x": 0, 
+                "y": 0
+            }
+        }
+    }, 
+    "variable_comments": {}, 
+    "variable_dict": {
+        "BOOLEAN": {
+            "gameStatus": false
+        }, 
+        "INTEGER": {
+            "GLOBAL_BAG_MAX_NUM": 0, 
+            "UNITLEN": 200, 
+            "head": 1, 
+            "tail": 1
+        }, 
+        "NEW_TIMER": {}, 
+        "PLAYER": {
+            "snakeHeadPlayer": 0
+        }, 
+        "POINT": {
+            "Stars": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "coordinate": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "coordinateTMP": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "queue": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "spawnPoint": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "TABLE": {
+            "UI_Manager": null, 
+            "wallList": null
+        }, 
+        "UNIT_ENTITY": {
+            "snakeHeadUnit": 0
+        }, 
+        "UNIT_GROUP": {
+            "wall": []
+        }, 
+        "UNIT_NAME": {}
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "UI_Manager", 
+                "UI_Manager"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GLOBAL_BAG_MAX_NUM", 
+                "GLOBAL_BAG_MAX_NUM"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "snakeHeadUnit", 
+                "snakeHeadUnit"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "snakeHeadPlayer", 
+                "snakeHeadPlayer"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "wall", 
+                "wall"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "wallList", 
+                "wallList"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "tail", 
+                "tail"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "UNITLEN", 
+                "UNITLEN"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "coordinate", 
+                "coordinate"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "head", 
+                "head"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "queue", 
+                "queue"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "coordinateTMP", 
+                "coordinateTMP"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "gameStatus", 
+                "gameStatus"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Stars", 
+                "Stars"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "spawnPoint", 
+                "spawnPoint"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "GLOBAL_BAG_MAX_NUM": 0, 
+        "Stars": 10, 
+        "UI_Manager": 0, 
+        "UNITLEN": 0, 
+        "coordinate": 0, 
+        "coordinateTMP": 0, 
+        "gameStatus": 0, 
+        "head": 0, 
+        "queue": 10, 
+        "snakeHeadPlayer": 0, 
+        "snakeHeadUnit": 0, 
+        "spawnPoint": 0, 
+        "tail": 0, 
+        "wall": 0, 
+        "wallList": 0
+    }
+}

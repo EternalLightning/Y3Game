@@ -1,0 +1,5 @@
+# -*- encoding:utf-8 -*-
+_reload_all = True
+
+
+data = {134274868: {'model_id': 134274868, 'select_effect_scale': 1.0, 'name': u'green_snake_body', 'describe': 'test_describe', 'key': 134274868, 'socket_info': {}, 'size': 1.0, 'uid': 134274868, 'yaw': 0, 'preview_icon': 'UP1ModelPreview/134274868'}, 134219949: {'model_id': 134219949, 'select_effect_scale': 1.0, 'name': u'green_snake_tail', 'describe': 'test_describe', 'key': 134219949, 'socket_info': {}, 'size': 1.0, 'uid': 134219949, 'yaw': 3.141592653589793, 'preview_icon': 'UP1ModelPreview/134219949'}, 134253117: {'model_id': 134253117, 'select_effect_scale': 1.0, 'name': u'green_snake_head', 'describe': 'test_describe', 'key': 134253117, 'socket_info': {}, 'size': 1.0, 'uid': 134253117, 'yaw': 3.141592653589793, 'preview_icon': 'UP1ModelPreview/134253117'}}

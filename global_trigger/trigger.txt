@@ -1,0 +1,88 @@
+{
+    "group": [], 
+    "key": -1, 
+    "key_order": {
+        "ZpzVD4kqEe6DVgD-q7NY62": 3, 
+        "bb9d8IkkEe61xwD-q7NY6y": 1
+    }, 
+    "name": "trigger", 
+    "sub_trigger": {
+        "0": {
+            "__tuple__": true, 
+            "items": [
+                1875570739, 
+                "New trigger"
+            ]
+        }, 
+        "2": {
+            "__tuple__": true, 
+            "items": [
+                1097781251, 
+                "\u6e38\u620f\u521d\u59cb\u5316"
+            ]
+        }, 
+        "4": {
+            "__tuple__": true, 
+            "items": [
+                738635780, 
+                "\u79fb\u52a8"
+            ]
+        }, 
+        "5": {
+            "__tuple__": true, 
+            "items": [
+                889630725, 
+                "\u5224\u7a7a"
+            ]
+        }, 
+        "6": {
+            "__tuple__": true, 
+            "items": [
+                1007071238, 
+                "W"
+            ]
+        }, 
+        "7": {
+            "__tuple__": true, 
+            "items": [
+                218542088, 
+                "A"
+            ]
+        }, 
+        "8": {
+            "__tuple__": true, 
+            "items": [
+                436645897, 
+                "S"
+            ]
+        }, 
+        "9": {
+            "__tuple__": true, 
+            "items": [
+                1527164938, 
+                "D"
+            ]
+        }, 
+        "10": {
+            "__tuple__": true, 
+            "items": [
+                486977547, 
+                "\u6e38\u620f\u5f00\u59cb"
+            ]
+        }, 
+        "11": {
+            "__tuple__": true, 
+            "items": [
+                2030481420, 
+                "\u52a0\u5165\u5355\u4f4d\u7ec4"
+            ]
+        }, 
+        "12": {
+            "__tuple__": true, 
+            "items": [
+                1627828237, 
+                "\u6e38\u620f\u7ed3\u675f"
+            ]
+        }
+    }
+}
