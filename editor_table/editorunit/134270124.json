@@ -1,4 +1,10 @@
 {
+    "0": 32, 
+    "1": 1, 
+    "3": 180.0, 
+    "4": 1.9, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
     "_ref_": 134270124, 
     "affect_techs": {
@@ -10,18 +16,18 @@
     "alarm_range": 8.0, 
     "angle_tolerance": 1, 
     "armor_type": 20000, 
-    "attack_interval": 1, 
+    "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
     "attack_phy": 100.0, 
     "attack_phy_grow": 2.0, 
-    "attack_range": 10, 
+    "attack_range": 10.0, 
     "attack_range_grow": 0, 
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
     "attack_type": 10000, 
-    "bar_show_name": 2, 
+    "bar_show_name": 0, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
     "base_color_mod": 1, 
@@ -38,7 +44,7 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
     "billboard_scale_y": 1, 
-    "blood_bar": 65537, 
+    "blood_bar": 0, 
     "blood_show_type": 0, 
     "body_size": 1.0, 
     "build_res_cost_list": {
@@ -95,7 +101,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "dynamic_collision_r": 1.0, 
+    "dynamic_collision_r": 0.0, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
@@ -166,7 +172,7 @@
     "mp_rec": 10, 
     "mp_rec_grow": 2, 
     "name": -16615767, 
-    "need_preview_billboard": true, 
+    "need_preview_billboard": false, 
     "ori_bits": 0, 
     "ori_speed": 2.0, 
     "ori_speed_grow": 0.0, 
@@ -215,24 +221,21 @@
     "show_y3_extra_info": false, 
     "silver coin": 0, 
     "simple_common_atk": {
-        "ability_animations": {
-            "__tuple__": true, 
-            "items": [
-                "attack1"
-            ]
-        }, 
+        "ability_animations": [
+            "attack1"
+        ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
+        "attack_interval": 1.0, 
+        "attack_range": 10.0, 
         "attack_trajectory": {
             "effect": 0, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "origin", 
+            "target_socket": "root"
         }, 
-        "cast_effect_list": {
-            "__tuple__": true, 
-            "items": []
-        }, 
+        "cast_effect_list": [], 
         "cast_sound": 0, 
         "critical_anim": "attack1", 
         "damage": 100.0, 
@@ -246,6 +249,7 @@
             "socket": "origin"
         }, 
         "hit_sound": 0, 
+        "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
         "trajectory_radian": 1.0, 
